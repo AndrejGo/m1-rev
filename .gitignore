@@ -2,3 +2,5 @@
 *.pyc
 .vscode/
 .DS_Store
+pmckext/DerivedData/
+PMCKext2.kext
