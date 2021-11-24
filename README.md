@@ -1,15 +1,17 @@
 # Reverse engineering the apple M1 frontend
 
 ## Problems with switching cores
-I knew from Dougall Johnson's GitHub repository that I would need some kind of
+I knew from [Dougall Johnson's GitHub](https://github.com/dougallj/applecpu)
+that I would need some kind of
 MacOS kernel extension to access the system registers. I tried to write some
 code that accessed `PMC0` anyway and got an error:
 ```
 zsh: illegal hardware instruction
 ```
 Each core has it's own set of performance counters and they have to be
-configured before use. This is done by writing values into the `PMCR0` register.
-The default value seems to be `0x7003403` (purely anecdotal conclusion), but
+configured before use. This is done by writing values into the `PMCR0`, `PMCR1`,
+`PMESR0` and `PMESR1` registers.
+The default value of `PMCR0` seems to be `0x7003403` (purely anecdotal conclusion), but
 Dougall Johnson uses this value:
 ```
 0x3003400FF4FF
@@ -27,12 +29,14 @@ Meaning of bits according to Asahi:
 - [45:44] Enable PMI for PMC #9-8                 (0x300000000000)
 ```
 
-Bit 30 is the most important for us, because if it is 0, it prevents us from
-accessing any PMC related registers. Because it is 0 by default, we need to 
-use a kernel module to set the bit.
+Bit 30 is the most important for us, and because it is 0 by default, we need to 
+use a kernel module to set the bit before doing anything else.
 
 ## Installing PMCKext2
+PMCKext2 is a small kernel extension created by Dougall Johnson that allows
+userspace to modify `PMCR0` using `sysctl`. Here's how to install it.
 ### Disable security
+I got these commands from the [Asahi Linux Quickstart Guide](https://github.com/AsahiLinux/docs/wiki/Developer-Quickstart).
 MacOS has some security features that do not allow you to load custom kernel 
 extensions. We have to perform the same sort of security downgrade as when we 
 were trying to install Asahi Linux.
@@ -51,19 +55,19 @@ Downgrade security with
 ```
 # bputil -nkcas
 ```
-and run
+and choose the disk that matches the ID you saw earlier. Then run
 ```
 # csrutil disable
 ```
-If a 'Failed to create local policy' error pops up, run
+and choose the 'Linux' option. If a 'Failed to create local policy' error pops
+up, run
 ```
 # csrutil clear
 ```
 
 ### Download Xcode
 I had to create an Apple account to access the App store and install Xcode. We 
-need this to build the kernel extension that Dougall Johnson provides on his 
-GitHub.
+need this to build the kernel extension.
 
 ### Build and load the PMCKext2 extension
 Good information on how to build and load kernel extensions in MacOS was 
@@ -111,7 +115,7 @@ difficult to find but I came across [this](Library/Developer/Xcode/DerivedData/P
     sudo cp -R /path-to/PMCKext2.kext /tmp
     sudo kextutil /tmp/PMCKext2.kext
     ```
-    2. If you are loadin this kext for the first time, a popup will ask you to
+    2. If you are loading this kext for the first time, a popup will ask you to
     authorize it in the settings.
     3. After authorization, reboot the mac and repeat the above two commands.
 
