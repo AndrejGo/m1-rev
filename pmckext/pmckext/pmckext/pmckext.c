@@ -31,6 +31,8 @@
 #define SREG_PMTRHLD4 "S3_2_c15_c13_0"
 #define SREG_PMTRHLD6 "S3_2_c15_c12_0"
 
+#define IDREG "S3_4_c15_c5_0"
+
 #define SREG_WRITE(SR, V) __asm__ volatile("msr " SR ", %0 ; isb" : : "r"(V))
 #define SREG_READ(SR)                                                          \
   ({                                                                           \
@@ -133,6 +135,31 @@ static int sysctl_pmcr1 SYSCTL_HANDLER_ARGS {
 SYSCTL_PROC(_kern, OID_AUTO, pmcr1, CTLTYPE_QUAD | CTLFLAG_RW | CTLFLAG_ANYBODY,
             NULL, 0, &sysctl_pmcr1, "I", "pmcr1");
 
+
+static int sysctl_idreg SYSCTL_HANDLER_ARGS {
+  uint64_t in = -1;
+  int error = SYSCTL_IN(req, &in, sizeof(in));
+
+  if (!error && req->newptr) {
+    printf("PMCKext2: idreg = %llx\n", in);
+    SREG_WRITE(SREG_PMCR1, in);
+  } else if (!error) {
+    printf("PMCKext2: read idreg\n");
+    uint64_t out = SREG_READ(IDREG);
+    error = SYSCTL_OUT(req, &out, sizeof(out));
+  }
+
+  if (error) {
+    printf("PMCKext2: sysctl_idreg failed with error %d\n", error);
+  }
+
+  return error;
+}
+
+SYSCTL_PROC(_kern, OID_AUTO, idreg, CTLTYPE_QUAD | CTLFLAG_RW | CTLFLAG_ANYBODY,
+            NULL, 0, &sysctl_idreg, "I", "idreg");
+
+
 kern_return_t PMCKext2_start(kmod_info_t *ki, void *d);
 kern_return_t PMCKext2_stop(kmod_info_t *ki, void *d);
 
@@ -142,6 +169,7 @@ kern_return_t PMCKext2_start(kmod_info_t *ki, void *d) {
   sysctl_register_oid(&sysctl__kern_pmesr1);
   sysctl_register_oid(&sysctl__kern_pmcr0);
   sysctl_register_oid(&sysctl__kern_pmcr1);
+  sysctl_register_oid(&sysctl__kern_idreg);
   return KERN_SUCCESS;
 }
 
@@ -151,5 +179,6 @@ kern_return_t PMCKext2_stop(kmod_info_t *ki, void *d) {
   sysctl_unregister_oid(&sysctl__kern_pmesr1);
   sysctl_unregister_oid(&sysctl__kern_pmcr0);
   sysctl_unregister_oid(&sysctl__kern_pmcr1);
+  sysctl_unregister_oid(&sysctl__kern_idreg);
   return KERN_SUCCESS;
 }
