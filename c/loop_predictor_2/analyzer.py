@@ -12,7 +12,7 @@ ice = [0] * num_bins
 fire = [0] * num_bins
 times = [0] * num_bins
 
-repetitions = 1000
+repetitions = 50000
 i = 0
 
 while i < repetitions:
@@ -42,27 +42,27 @@ while i < repetitions:
         print(str(e))
         i += 1
 
-plt.bar(
+fig, ax = plt.subplots(2)
+fig.suptitle(f'Frequency of misprediction counts\nouter: {outer}  inner: {inner}\n4 stressed cores.')
+fig.subplots_adjust(left=0.1, top=0.8, right=0.9, bottom=0.1, hspace=0.6)
+
+ax[0].bar(
     range(num_bins),
     height=ice,
     width=2,
-    color=(0, 0, 1, 0.5)
+    color=(0, 0, 1)
 )
-plt.bar(
+ax[0].set_title('Icestorm')
+ax[0].set_xlabel('Difference in misprediction counter before and after the program.')
+
+ax[1].bar(
     range(num_bins),
     height=fire,
     width=2,
-    color=(1, 0, 0, 0.5)
+    color=(1, 0, 0)
 )
-#plt.bar(
-#    range(num_bins),
-#    height=times,
-#    width=2,
-#    color=(0, 1, 0, 0.5)
-#)
-plt.xlabel('Difference in misprediction counter before and after the program.')
-plt.title(f'Frequency of misprediction counts\nouter: {outer}  inner: {inner}')
-plt.legend()
-#plt.savefig('Results/result.png')
+ax[1].set_title('Firestorm')
+ax[1].set_xlabel('Difference in misprediction counter before and after the program.')
+
 plt.show()
     

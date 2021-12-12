@@ -26,9 +26,9 @@ void* testing_thread(void* arg) {
     usleep(100);
 
     set_sysctl("kern.pmcr0", PMCR0_DEFAULT_XCODE);
-    clocks = num_cycles_to_do_FP_loop(100);
+    clocks = num_cycles_to_do_FP_loop(1000);
 
-    if(clocks < 400) {
+    if(clocks < 3500) {
         core = FIRE;
     } else {
         core = ICE;

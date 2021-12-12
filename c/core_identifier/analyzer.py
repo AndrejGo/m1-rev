@@ -3,7 +3,7 @@
 import subprocess
 import matplotlib.pyplot as plt
 
-num_bins = 900
+num_bins = 6000
 bins = [0] * num_bins
 
 repetitions = 1000
@@ -16,18 +16,15 @@ while i < repetitions:
         if "illegal" not in result:
             index = int(result.split(' ')[0])
 
-            index -= 100
             if index >= num_bins:
                 index = num_bins-1
-
-            if index < 0:
-                index = 0
 
             bins[index] += 1
 
             i += 1
     except subprocess.CalledProcessError as e:
         print("Exception:", str(e))
+        print(i)
 
 xvalues = list(map(lambda x : x, range(num_bins)))
 
@@ -40,5 +37,5 @@ plt.bar(
 plt.xlabel(f'Clock count')
 plt.title('Frequency of clocks needed to complete the loop')
 plt.yscale("log")
-plt.xticks([0, 100, 200, 300, 400, 500, 600, 700, 800], [100, 200, 300, 400, 500, 600, 700, 800, 900])
+#plt.xticks([0, 100, 200, 300, 400, 500, 600, 700, 800], [100, 200, 300, 400, 500, 600, 700, 800, 900])
 plt.show()

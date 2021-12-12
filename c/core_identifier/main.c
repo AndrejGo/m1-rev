@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 #define ICESTORM
-#define LOOP_COUNT 100
+#define LOOP_COUNT 1000
 
 uint64_t clocks;
 
