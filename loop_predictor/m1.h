@@ -276,7 +276,7 @@ static uint64_t get_sysctl(const char *name) {
     v; \
 })
 
-# define CYCLE_LIMIT_FOR_EFFICIENT_CORE 137000
+# define CYCLE_LIMIT_FOR_EFFICIENT_CORE 3500
 // CPU profiling to identify if we are running on Icestorm or Firestorm.
 unsigned long num_cycles_to_do_FP_loop(uint64_t loop_count) {
 

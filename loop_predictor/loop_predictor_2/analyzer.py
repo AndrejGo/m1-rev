@@ -3,16 +3,16 @@
 import subprocess
 import matplotlib.pyplot as plt
 
-outer = 100
-inner = 62
+outer = 1000
+inner = 69
 
-num_bins = 500
+num_bins = 2500
 
 ice = [0] * num_bins
 fire = [0] * num_bins
 times = [0] * num_bins
 
-repetitions = 50000
+repetitions = 10000
 i = 0
 
 while i < repetitions:
@@ -49,7 +49,7 @@ fig.subplots_adjust(left=0.1, top=0.8, right=0.9, bottom=0.1, hspace=0.6)
 ax[0].bar(
     range(num_bins),
     height=ice,
-    width=2,
+    width=4,
     color=(0, 0, 1)
 )
 ax[0].set_title('Icestorm')
@@ -58,7 +58,7 @@ ax[0].set_xlabel('Difference in misprediction counter before and after the progr
 ax[1].bar(
     range(num_bins),
     height=fire,
-    width=2,
+    width=4,
     color=(1, 0, 0)
 )
 ax[1].set_title('Firestorm')
