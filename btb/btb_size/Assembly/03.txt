@@ -1,0 +1,27 @@
+1 branch per 2 instructions
+
+"""
+# Prepare assembly code
+    assembly = '''
+"       adr x0, .       ; Store the current address in x0 \\n"
+"       add x0, x0, 20  ; Change the address in x0 to point to the next sub \\n"
+"       br x0           ; Jump to the next sub \\n"
+'''.replace('\n', '')
+
+    for i in range((num_branches-2)//2):
+        assembly += '''
+"       add x0, x0, 24 ; Change x0 to point to the next sub instruction \\n"
+"       br x0          ; Branch to the next sub \\n"
+"       sub x0, x0, 8  ; Change x0 to point to the above add instruction \\n"
+"       br x0          ; Branch to the above add \\n"
+'''.replace('\n', '')
+
+    assembly += '''
+"       add x0, x0, 1 ; Dummy instruction, never executed. \\n"
+"       add x0, x0, 1 ; Dummy instruction, never executed. \\n"
+"       add x0, x0, 12 ; We come to here from the above branches. Change x0 to point to the last instruction. \\n"
+"       br x0          ; Jump to the last instruction. \\n"
+"       add x0, x0, 1 ; Dummy instruction, never executed. \\n"
+"       add x0, x0, 1 ; \\n"
+'''.replace('\n', '')
+"""

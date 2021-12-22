@@ -1,0 +1,18 @@
+1 branch per 3 instructions
+
+"""
+# Prepare assembly code
+    assembly = '''
+"       adr x0, .       ; Store the current address in x0 \\n"
+"       add x0, x0, 16  ; The target is 4 instruction after the above one \\n"
+"       br x0           ; Branch to the address in x0 \\n"
+"       sub x0, x0, 1   ; Dummy instruction \\n"
+'''.replace('\n', '')
+
+    for i in range(num_branches-1):
+        assembly += '''
+"       add x0, x0, 12                    \\n"
+"       br x0                             \\n"
+"       sub x0, x0, 1 ; dummy instruction \\n"
+'''.replace('\n', '')
+"""

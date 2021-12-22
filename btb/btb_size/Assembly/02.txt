@@ -1,0 +1,40 @@
+2 branches per 5 instructions
+
+"""
+# Prepare assembly code
+    assembly = '''
+"       adr x0, .       ; Store the current address in x0 \\n"
+"       adr x1, .       ; Store the current address in x0 \\n"
+
+"       add x0, x0, 28  ; Change x0 to point to the next instruction that adds to x0 \\n"
+"       add x1, x1, 20  ; Change x1 so that it points to the next br x0 instruction  \\n"
+"       add x1, x1, 20  ;                                                            \\n"
+
+"       br x1           ; Jump to the next br x0 instruction    \\n"
+"       br x0           ; This instruction will not be executed \\n"
+'''.replace('\n', '')
+
+    for i in range((num_branches-2)//2):
+        assembly += '''
+"       add x0, x0, 20 ; Change x0 to point to the next add x0 instruction. \\n"
+"       add x1, x1, 10 ; Change x1 to point to the next br x1 instruction   \\n"
+"       add x1, x1, 10 ;                                                    \\n"
+
+"       br x1          ; Branch to the next br x0 instruction \\n"
+"       br x0          ; We come here from the previous br x1 instruction. Branch to the above add x0. \\n"
+'''.replace('\n', '')
+
+    assembly += '''
+"       add x0, x0, 20 ; Dummy instruction, never executed. \\n"
+"       add x1, x1, 10 ; Dummy instruction, never executed. \\n"
+"       add x1, x1, 10 ; Dummy instruction, never executed. \\n"
+    
+"       br x1          ; Dummy instruction, never executed. \\n"
+"       add x0, x0, 28 ; We come here from the last br x1 instruction. Change x0 to point to the last instuction in this block. \\n"
+"       br x0          ; \\n"
+
+"       add x0, x0, 20 ; Dummy instruction, never executed. \\n"
+
+"       add x0, x0, 20 ; Dummy instruction, just acts as a target for the last branch. \\n"
+'''.replace('\n', '')
+"""
