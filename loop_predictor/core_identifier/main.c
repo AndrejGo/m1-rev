@@ -4,7 +4,7 @@
 #include "../m1.h"
 #include <unistd.h>
 
-#define ICESTORM
+#define FIRESTORM
 #define LOOP_COUNT 1000
 
 uint64_t clocks;

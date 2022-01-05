@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include "../../loop_predictor/m1.h"
 #include <errno.h>
+#include <vm/pmap.h>
 
 #define PAGE_SIZE (1 << 14)
 #define CACHE_LINE_SIZE 128
@@ -33,6 +34,10 @@ int main() {
     int core = clocks < CYCLE_LIMIT_FOR_EFFICIENT_CORE ? 0 : 1;
     // 0 -> Firestorm
     // 1 -> Icestorm
+    if(core != 1) {
+        printf("Not on Icestorm\n");
+        return 0;
+    }
 
     // Configure the counter to trach branch mispredictions
     // Enable PMC5
@@ -62,25 +67,28 @@ int main() {
 
     printf("Access took %llu clocks\n", clocks_after - clocks_before);
 
-    unsigned long num_pages = size / PAGE_SIZE;
-    unsigned long num_accesses = (num_pages-1) * CACHE_LINES_PER_PAGE;
-    for(unsigned long i = 1; i < num_accesses; i++) {
-        t ^= *(working_space + i * CACHE_LINE_SIZE);
-    }
-
-    __asm__ volatile("isb");
-
-    set_sysctl("kern.pmcr0", PMCR0_DEFAULT_XCODE);
     clocks_before = SREG_READ(PMC0);
     t = *working_space;
-    __asm__ volatile("isb");
     clocks_after = SREG_READ(PMC0);
 
     printf("Access took %llu clocks\n", clocks_after - clocks_before);
 
+    //unsigned long num_pages = size / PAGE_SIZE;
+    //unsigned long num_accesses = (num_pages-1) * CACHE_LINES_PER_PAGE;
+    for(unsigned long i = 1; i < 1024; i++) {
+        t ^= *(working_space + i * PAGE_SIZE);
+    }
+
+    //set_sysctl("kern.pmcr0", PMCR0_DEFAULT_XCODE);
     clocks_before = SREG_READ(PMC0);
     t = *working_space;
-    __asm__ volatile("isb");
+    clocks_after = SREG_READ(PMC0);
+
+    printf("Access took %llu clocks\n", clocks_after - clocks_before);
+
+    //set_sysctl("kern.pmcr0", PMCR0_DEFAULT_XCODE);
+    clocks_before = SREG_READ(PMC0);
+    t = *working_space;
     clocks_after = SREG_READ(PMC0);
 
     printf("Access took %llu clocks\n", clocks_after - clocks_before);

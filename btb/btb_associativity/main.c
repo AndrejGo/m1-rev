@@ -52,7 +52,7 @@ int main() {
         "1:     sub x2, x2, 1   \n"
         
 "       adr x0, .       ; Store the current address in x0 \n"
-"       add x0, x0, 72  ;  \n"
+"       add x0, x0, 264  ;  \n"
 "       br x0           ; Branch to the address in x0 \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -85,8 +85,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -118,8 +117,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -151,8 +149,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -184,7 +181,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -217,8 +214,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -250,8 +246,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -283,8 +278,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -316,7 +310,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -349,8 +343,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -382,8 +375,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -415,8 +407,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -448,7 +439,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -481,8 +472,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -514,8 +504,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -547,8 +536,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -580,7 +568,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -613,8 +601,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -646,8 +633,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -679,8 +665,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -712,7 +697,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -745,8 +730,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -778,8 +762,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -811,8 +794,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -844,7 +826,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -877,8 +859,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -910,8 +891,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -943,8 +923,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -976,7 +955,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1009,8 +988,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1042,8 +1020,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1075,8 +1052,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1108,7 +1084,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1141,8 +1117,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1174,8 +1149,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1207,8 +1181,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1240,7 +1213,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1273,8 +1246,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1306,8 +1278,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1339,8 +1310,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1372,7 +1342,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1405,8 +1375,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1438,8 +1407,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1471,8 +1439,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1504,7 +1471,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1537,8 +1504,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1570,8 +1536,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1603,8 +1568,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1636,7 +1600,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1669,8 +1633,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1702,8 +1665,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1735,8 +1697,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1768,7 +1729,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1801,8 +1762,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1834,8 +1794,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1867,8 +1826,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1900,7 +1858,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -1933,8 +1891,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1966,8 +1923,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -1999,8 +1955,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2032,7 +1987,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2065,8 +2020,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2098,8 +2052,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2131,8 +2084,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2164,7 +2116,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2197,8 +2149,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2230,8 +2181,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2263,8 +2213,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2296,7 +2245,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2329,8 +2278,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2362,8 +2310,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2395,8 +2342,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2428,7 +2374,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2461,8 +2407,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2494,8 +2439,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2527,8 +2471,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2560,7 +2503,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2593,8 +2536,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2626,8 +2568,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2659,8 +2600,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2692,7 +2632,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2725,8 +2665,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2758,8 +2697,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2791,8 +2729,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2824,7 +2761,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2857,8 +2794,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2890,8 +2826,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2923,8 +2858,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -2956,7 +2890,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -2989,8 +2923,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3022,8 +2955,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3055,8 +2987,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3088,7 +3019,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3121,8 +3052,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3154,8 +3084,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3187,8 +3116,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3220,7 +3148,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3253,8 +3181,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3286,8 +3213,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3319,8 +3245,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3352,7 +3277,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3385,8 +3310,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3418,8 +3342,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3451,8 +3374,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3484,7 +3406,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3517,8 +3439,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3550,8 +3471,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3583,8 +3503,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3616,7 +3535,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3649,8 +3568,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3682,8 +3600,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3715,8 +3632,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3748,7 +3664,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3781,8 +3697,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3814,8 +3729,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3847,8 +3761,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3880,7 +3793,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -3913,8 +3826,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3946,8 +3858,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -3979,8 +3890,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4012,7 +3922,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4045,8 +3955,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4078,8 +3987,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4111,8 +4019,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4144,7 +4051,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4177,8 +4084,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4210,8 +4116,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4243,8 +4148,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4276,7 +4180,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4309,8 +4213,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4342,8 +4245,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4375,8 +4277,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4408,7 +4309,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4441,8 +4342,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4474,8 +4374,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4507,8 +4406,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4540,7 +4438,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4573,8 +4471,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4606,8 +4503,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4639,8 +4535,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4672,7 +4567,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4705,8 +4600,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4738,8 +4632,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4771,8 +4664,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4804,7 +4696,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4837,8 +4729,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4870,8 +4761,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4903,8 +4793,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -4936,7 +4825,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -4969,8 +4858,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5002,8 +4890,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5035,8 +4922,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5068,7 +4954,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5101,8 +4987,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5134,8 +5019,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5167,8 +5051,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5200,7 +5083,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5233,8 +5116,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5266,8 +5148,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5299,8 +5180,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5332,7 +5212,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5365,8 +5245,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5398,8 +5277,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5431,8 +5309,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5464,7 +5341,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5497,8 +5374,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5530,8 +5406,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5563,8 +5438,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5596,7 +5470,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5629,8 +5503,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5662,8 +5535,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5695,8 +5567,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5728,7 +5599,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5761,8 +5632,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5794,8 +5664,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5827,8 +5696,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5860,7 +5728,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -5893,8 +5761,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5926,8 +5793,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5959,8 +5825,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -5992,7 +5857,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6025,8 +5890,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6058,8 +5922,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6091,8 +5954,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6124,7 +5986,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6157,8 +6019,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6190,8 +6051,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6223,8 +6083,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6256,7 +6115,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6289,8 +6148,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6322,8 +6180,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6355,8 +6212,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6388,7 +6244,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6421,8 +6277,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6454,8 +6309,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6487,8 +6341,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6520,7 +6373,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6553,8 +6406,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6586,8 +6438,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6619,8 +6470,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6652,7 +6502,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6685,8 +6535,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6718,8 +6567,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6751,8 +6599,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6784,7 +6631,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6817,8 +6664,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6850,8 +6696,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6883,8 +6728,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6916,7 +6760,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -6949,8 +6793,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -6982,8 +6825,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7015,8 +6857,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7048,7 +6889,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7081,8 +6922,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7114,8 +6954,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7147,8 +6986,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7180,7 +7018,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7213,8 +7051,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7246,8 +7083,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7279,8 +7115,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7312,7 +7147,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7345,8 +7180,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7378,8 +7212,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7411,8 +7244,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7444,7 +7276,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7477,8 +7309,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7510,8 +7341,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7543,8 +7373,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7576,7 +7405,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7609,8 +7438,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7642,8 +7470,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7675,8 +7502,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7708,7 +7534,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7741,8 +7567,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7774,8 +7599,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7807,8 +7631,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7840,7 +7663,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -7873,8 +7696,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7906,8 +7728,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7939,8 +7760,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -7972,7 +7792,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8005,8 +7825,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8038,8 +7857,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8071,8 +7889,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8104,7 +7921,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8137,8 +7954,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8170,8 +7986,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8203,8 +8018,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8236,7 +8050,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8269,8 +8083,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8302,8 +8115,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8335,8 +8147,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8368,7 +8179,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8401,8 +8212,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8434,8 +8244,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8467,8 +8276,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8500,7 +8308,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8533,8 +8341,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8566,8 +8373,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8599,8 +8405,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8632,7 +8437,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8665,8 +8470,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8698,8 +8502,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8731,8 +8534,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8764,7 +8566,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8797,8 +8599,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8830,8 +8631,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8863,8 +8663,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8896,7 +8695,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -8929,8 +8728,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8962,8 +8760,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -8995,8 +8792,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9028,7 +8824,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9061,8 +8857,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9094,8 +8889,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9127,8 +8921,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9160,7 +8953,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9193,8 +8986,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9226,8 +9018,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9259,8 +9050,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9292,7 +9082,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9325,8 +9115,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9358,8 +9147,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9391,8 +9179,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9424,7 +9211,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9457,8 +9244,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9490,8 +9276,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9523,8 +9308,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9556,7 +9340,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9589,8 +9373,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9622,8 +9405,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9655,8 +9437,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9688,7 +9469,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9721,8 +9502,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9754,8 +9534,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9787,8 +9566,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9820,7 +9598,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9853,8 +9631,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9886,8 +9663,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9919,8 +9695,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -9952,7 +9727,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -9985,8 +9760,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10018,8 +9792,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10051,8 +9824,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10084,7 +9856,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10117,8 +9889,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10150,8 +9921,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10183,8 +9953,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10216,7 +9985,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10249,8 +10018,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10282,8 +10050,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10315,8 +10082,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10348,7 +10114,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10381,8 +10147,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10414,8 +10179,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10447,8 +10211,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10480,7 +10243,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10513,8 +10276,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10546,8 +10308,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10579,8 +10340,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10612,7 +10372,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10645,8 +10405,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10678,8 +10437,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10711,8 +10469,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10744,7 +10501,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10777,8 +10534,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10810,8 +10566,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10843,8 +10598,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10876,7 +10630,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -10909,8 +10663,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10942,8 +10695,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -10975,8 +10727,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11008,7 +10759,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11041,8 +10792,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11074,8 +10824,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11107,8 +10856,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11140,7 +10888,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11173,8 +10921,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11206,8 +10953,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11239,8 +10985,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11272,7 +11017,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11305,8 +11050,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11338,8 +11082,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11371,8 +11114,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11404,7 +11146,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11437,8 +11179,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11470,8 +11211,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11503,8 +11243,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11536,7 +11275,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11569,8 +11308,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11602,8 +11340,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11635,8 +11372,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11668,7 +11404,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11701,8 +11437,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11734,8 +11469,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11767,8 +11501,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11800,7 +11533,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11833,8 +11566,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11866,8 +11598,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11899,8 +11630,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11932,7 +11662,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -11965,8 +11695,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -11998,8 +11727,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12031,8 +11759,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12064,7 +11791,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12097,8 +11824,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12130,8 +11856,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12163,8 +11888,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12196,7 +11920,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12229,8 +11953,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12262,8 +11985,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12295,8 +12017,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12328,7 +12049,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12361,8 +12082,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12394,8 +12114,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12427,8 +12146,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12460,7 +12178,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12493,8 +12211,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12526,8 +12243,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12559,8 +12275,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12592,7 +12307,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12625,8 +12340,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12658,8 +12372,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12691,8 +12404,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12724,7 +12436,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12757,8 +12469,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12790,8 +12501,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12823,8 +12533,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12856,7 +12565,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -12889,8 +12598,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12922,8 +12630,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12955,8 +12662,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -12988,7 +12694,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13021,8 +12727,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13054,8 +12759,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13087,8 +12791,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13120,7 +12823,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13153,8 +12856,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13186,8 +12888,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13219,8 +12920,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13252,7 +12952,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13285,8 +12985,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13318,8 +13017,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13351,8 +13049,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13384,7 +13081,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13417,8 +13114,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13450,8 +13146,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13483,8 +13178,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13516,7 +13210,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13549,8 +13243,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13582,8 +13275,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13615,8 +13307,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13648,7 +13339,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13681,8 +13372,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13714,8 +13404,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13747,8 +13436,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13780,7 +13468,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13813,8 +13501,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13846,8 +13533,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13879,8 +13565,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13912,7 +13597,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -13945,8 +13630,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -13978,8 +13662,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14011,8 +13694,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14044,7 +13726,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14077,8 +13759,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14110,8 +13791,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14143,8 +13823,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14176,7 +13855,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14209,8 +13888,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14242,8 +13920,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14275,8 +13952,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14308,7 +13984,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14341,8 +14017,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14374,8 +14049,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14407,8 +14081,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14440,7 +14113,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14473,8 +14146,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14506,8 +14178,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14539,8 +14210,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14572,7 +14242,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14605,8 +14275,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14638,8 +14307,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14671,8 +14339,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14704,7 +14371,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14737,8 +14404,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14770,8 +14436,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14803,8 +14468,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14836,7 +14500,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -14869,8 +14533,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14902,8 +14565,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14935,8 +14597,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -14968,7 +14629,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15001,8 +14662,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15034,8 +14694,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15067,8 +14726,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15100,7 +14758,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15133,8 +14791,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15166,8 +14823,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15199,8 +14855,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15232,7 +14887,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15265,8 +14920,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15298,8 +14952,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15331,8 +14984,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15364,7 +15016,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15397,8 +15049,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15430,8 +15081,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15463,8 +15113,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15496,7 +15145,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15529,8 +15178,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15562,8 +15210,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15595,8 +15242,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15628,7 +15274,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15661,8 +15307,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15694,8 +15339,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15727,8 +15371,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15760,7 +15403,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15793,8 +15436,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15826,8 +15468,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15859,8 +15500,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15892,7 +15532,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -15925,8 +15565,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15958,8 +15597,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -15991,8 +15629,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16024,7 +15661,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16057,8 +15694,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16090,8 +15726,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16123,8 +15758,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16156,7 +15790,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16189,8 +15823,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16222,8 +15855,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16255,8 +15887,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16288,7 +15919,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16321,8 +15952,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16354,8 +15984,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16387,8 +16016,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16420,7 +16048,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16453,8 +16081,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16486,8 +16113,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16519,8 +16145,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16552,7 +16177,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16585,8 +16210,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16618,8 +16242,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16651,8 +16274,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16684,7 +16306,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16717,8 +16339,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16750,8 +16371,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16783,8 +16403,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16816,7 +16435,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16849,8 +16468,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16882,8 +16500,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16915,8 +16532,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -16948,7 +16564,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -16981,8 +16597,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17014,8 +16629,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17047,8 +16661,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17080,7 +16693,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17113,8 +16726,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17146,8 +16758,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17179,8 +16790,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17212,7 +16822,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17245,8 +16855,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17278,8 +16887,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17311,8 +16919,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17344,7 +16951,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17377,8 +16984,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17410,8 +17016,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17443,8 +17048,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17476,7 +17080,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17509,8 +17113,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17542,8 +17145,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17575,8 +17177,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17608,7 +17209,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17641,8 +17242,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17674,8 +17274,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17707,8 +17306,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17740,7 +17338,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17773,8 +17371,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17806,8 +17403,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17839,8 +17435,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17872,7 +17467,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -17905,8 +17500,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17938,8 +17532,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -17971,8 +17564,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18004,7 +17596,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18037,8 +17629,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18070,8 +17661,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18103,8 +17693,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18136,7 +17725,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18169,8 +17758,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18202,8 +17790,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18235,8 +17822,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18268,7 +17854,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18301,8 +17887,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18334,8 +17919,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18367,8 +17951,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18400,7 +17983,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18433,8 +18016,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18466,8 +18048,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18499,8 +18080,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18532,7 +18112,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18565,8 +18145,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18598,8 +18177,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18631,8 +18209,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18664,7 +18241,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18697,8 +18274,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18730,8 +18306,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18763,8 +18338,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18796,7 +18370,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18829,8 +18403,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18862,8 +18435,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18895,8 +18467,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18928,7 +18499,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -18961,8 +18532,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -18994,8 +18564,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19027,8 +18596,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19060,7 +18628,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19093,8 +18661,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19126,8 +18693,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19159,8 +18725,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19192,7 +18757,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19225,8 +18790,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19258,8 +18822,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19291,8 +18854,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19324,7 +18886,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19357,8 +18919,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19390,8 +18951,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19423,8 +18983,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19456,7 +19015,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19489,8 +19048,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19522,8 +19080,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19555,8 +19112,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19588,7 +19144,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19621,8 +19177,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19654,8 +19209,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19687,8 +19241,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19720,7 +19273,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19753,8 +19306,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19786,8 +19338,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19819,8 +19370,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19852,7 +19402,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -19885,8 +19435,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19918,8 +19467,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19951,8 +19499,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -19984,7 +19531,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20017,8 +19564,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20050,8 +19596,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20083,8 +19628,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20116,7 +19660,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20149,8 +19693,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20182,8 +19725,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20215,8 +19757,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20248,7 +19789,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20281,8 +19822,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20314,8 +19854,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20347,8 +19886,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20380,7 +19918,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20413,8 +19951,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20446,8 +19983,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20479,8 +20015,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20512,7 +20047,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20545,8 +20080,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20578,8 +20112,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20611,8 +20144,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20644,7 +20176,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20677,8 +20209,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20710,8 +20241,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20743,8 +20273,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20776,7 +20305,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20809,8 +20338,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20842,8 +20370,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20875,8 +20402,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20908,7 +20434,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -20941,8 +20467,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -20974,8 +20499,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21007,8 +20531,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21040,7 +20563,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21073,8 +20596,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21106,8 +20628,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21139,8 +20660,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21172,7 +20692,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21205,8 +20725,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21238,8 +20757,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21271,8 +20789,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21304,7 +20821,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21337,8 +20854,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21370,8 +20886,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21403,8 +20918,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21436,7 +20950,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21469,8 +20983,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21502,8 +21015,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21535,8 +21047,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21568,7 +21079,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21601,8 +21112,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21634,8 +21144,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21667,8 +21176,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21700,7 +21208,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21733,8 +21241,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21766,8 +21273,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21799,8 +21305,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21832,7 +21337,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21865,8 +21370,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21898,8 +21402,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21931,8 +21434,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -21964,7 +21466,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -21997,8 +21499,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22030,8 +21531,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22063,8 +21563,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22096,7 +21595,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22129,8 +21628,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22162,8 +21660,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22195,8 +21692,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22228,7 +21724,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22261,8 +21757,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22294,8 +21789,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22327,8 +21821,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22360,7 +21853,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22393,8 +21886,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22426,8 +21918,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22459,8 +21950,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22492,7 +21982,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22525,8 +22015,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22558,8 +22047,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22591,8 +22079,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22624,7 +22111,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22657,8 +22144,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22690,8 +22176,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22723,8 +22208,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22756,7 +22240,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22789,8 +22273,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22822,8 +22305,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22855,8 +22337,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22888,7 +22369,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -22921,8 +22402,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22954,8 +22434,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -22987,8 +22466,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23020,7 +22498,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23053,8 +22531,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23086,8 +22563,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23119,8 +22595,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23152,7 +22627,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23185,8 +22660,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23218,8 +22692,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23251,8 +22724,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23284,7 +22756,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23317,8 +22789,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23350,8 +22821,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23383,8 +22853,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23416,7 +22885,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23449,8 +22918,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23482,8 +22950,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23515,8 +22982,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23548,7 +23014,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23581,8 +23047,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23614,8 +23079,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23647,8 +23111,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23680,7 +23143,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23713,8 +23176,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23746,8 +23208,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23779,8 +23240,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23812,7 +23272,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23845,8 +23305,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23878,8 +23337,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23911,8 +23369,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -23944,7 +23401,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -23977,8 +23434,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24010,8 +23466,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24043,8 +23498,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24076,7 +23530,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24109,8 +23563,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24142,8 +23595,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24175,8 +23627,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24208,7 +23659,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24241,8 +23692,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24274,8 +23724,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24307,8 +23756,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24340,7 +23788,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24373,8 +23821,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24406,8 +23853,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24439,8 +23885,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24472,7 +23917,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24505,8 +23950,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24538,8 +23982,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24571,8 +24014,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24604,7 +24046,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24637,8 +24079,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24670,8 +24111,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24703,8 +24143,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24736,7 +24175,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24769,8 +24208,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24802,8 +24240,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24835,8 +24272,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24868,7 +24304,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -24901,8 +24337,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24934,8 +24369,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -24967,8 +24401,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25000,7 +24433,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25033,8 +24466,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25066,8 +24498,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25099,8 +24530,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25132,7 +24562,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25165,8 +24595,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25198,8 +24627,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25231,8 +24659,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25264,7 +24691,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25297,8 +24724,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25330,8 +24756,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25363,8 +24788,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25396,7 +24820,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25429,8 +24853,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25462,8 +24885,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25495,8 +24917,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25528,7 +24949,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25561,8 +24982,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25594,8 +25014,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25627,8 +25046,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25660,7 +25078,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25693,8 +25111,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25726,8 +25143,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25759,8 +25175,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25792,7 +25207,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25825,8 +25240,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25858,8 +25272,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25891,8 +25304,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25924,7 +25336,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -25957,8 +25369,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -25990,8 +25401,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26023,8 +25433,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26056,7 +25465,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26089,8 +25498,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26122,8 +25530,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26155,8 +25562,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26188,7 +25594,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26221,8 +25627,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26254,8 +25659,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26287,8 +25691,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26320,7 +25723,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26353,8 +25756,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26386,8 +25788,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26419,8 +25820,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26452,7 +25852,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26485,8 +25885,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26518,8 +25917,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26551,8 +25949,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26584,7 +25981,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26617,8 +26014,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26650,8 +26046,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26683,8 +26078,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26716,7 +26110,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26749,8 +26143,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26782,8 +26175,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26815,8 +26207,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26848,7 +26239,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -26881,8 +26272,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26914,8 +26304,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26947,8 +26336,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -26980,7 +26368,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27013,8 +26401,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27046,8 +26433,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27079,8 +26465,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27112,7 +26497,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27145,8 +26530,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27178,8 +26562,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27211,8 +26594,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27244,7 +26626,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27277,8 +26659,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27310,8 +26691,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27343,8 +26723,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27376,7 +26755,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27409,8 +26788,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27442,8 +26820,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27475,8 +26852,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27508,7 +26884,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27541,8 +26917,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27574,8 +26949,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27607,8 +26981,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27640,7 +27013,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27673,8 +27046,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27706,8 +27078,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27739,8 +27110,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27772,7 +27142,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27805,8 +27175,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27838,8 +27207,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27871,8 +27239,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27904,7 +27271,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -27937,8 +27304,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -27970,8 +27336,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28003,8 +27368,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28036,7 +27400,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28069,8 +27433,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28102,8 +27465,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28135,8 +27497,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28168,7 +27529,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28201,8 +27562,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28234,8 +27594,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28267,8 +27626,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28300,7 +27658,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28333,8 +27691,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28366,8 +27723,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28399,8 +27755,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28432,7 +27787,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28465,8 +27820,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28498,8 +27852,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28531,8 +27884,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28564,7 +27916,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28597,8 +27949,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28630,8 +27981,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28663,8 +28013,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28696,7 +28045,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28729,8 +28078,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28762,8 +28110,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28795,8 +28142,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28828,7 +28174,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28861,8 +28207,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28894,8 +28239,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28927,8 +28271,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -28960,7 +28303,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -28993,8 +28336,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29026,8 +28368,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29059,8 +28400,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29092,7 +28432,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29125,8 +28465,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29158,8 +28497,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29191,8 +28529,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29224,7 +28561,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29257,8 +28594,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29290,8 +28626,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29323,8 +28658,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29356,7 +28690,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29389,8 +28723,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29422,8 +28755,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29455,8 +28787,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29488,7 +28819,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29521,8 +28852,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29554,8 +28884,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29587,8 +28916,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29620,7 +28948,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29653,8 +28981,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29686,8 +29013,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29719,8 +29045,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29752,7 +29077,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29785,8 +29110,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29818,8 +29142,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29851,8 +29174,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29884,7 +29206,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -29917,8 +29239,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29950,8 +29271,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -29983,8 +29303,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30016,7 +29335,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30049,8 +29368,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30082,8 +29400,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30115,8 +29432,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30148,7 +29464,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30181,8 +29497,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30214,8 +29529,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30247,8 +29561,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30280,7 +29593,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30313,8 +29626,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30346,8 +29658,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30379,8 +29690,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30412,7 +29722,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30445,8 +29755,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30478,8 +29787,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30511,8 +29819,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30544,7 +29851,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30577,8 +29884,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30610,8 +29916,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30643,8 +29948,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30676,7 +29980,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30709,8 +30013,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30742,8 +30045,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30775,8 +30077,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30808,7 +30109,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30841,8 +30142,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30874,8 +30174,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30907,8 +30206,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -30940,7 +30238,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -30973,8 +30271,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31006,8 +30303,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31039,8 +30335,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31072,7 +30367,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31105,8 +30400,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31138,8 +30432,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31171,8 +30464,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31204,7 +30496,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31237,8 +30529,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31270,8 +30561,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31303,8 +30593,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31336,7 +30625,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31369,8 +30658,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31402,8 +30690,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31435,8 +30722,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31468,7 +30754,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31501,8 +30787,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31534,8 +30819,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31567,8 +30851,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31600,7 +30883,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31633,8 +30916,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31666,8 +30948,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31699,8 +30980,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31732,7 +31012,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31765,8 +31045,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31798,8 +31077,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31831,8 +31109,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31864,7 +31141,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -31897,8 +31174,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31930,8 +31206,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31963,8 +31238,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -31996,7 +31270,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32029,8 +31303,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32062,8 +31335,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32095,8 +31367,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32128,7 +31399,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32161,8 +31432,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32194,8 +31464,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32227,8 +31496,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32260,7 +31528,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32293,8 +31561,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32326,8 +31593,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32359,8 +31625,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32392,7 +31657,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32425,8 +31690,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32458,8 +31722,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32491,8 +31754,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32524,7 +31786,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32557,8 +31819,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32590,8 +31851,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32623,8 +31883,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32656,7 +31915,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32689,8 +31948,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32722,8 +31980,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32755,8 +32012,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32788,7 +32044,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32821,8 +32077,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32854,8 +32109,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32887,8 +32141,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32920,7 +32173,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -32953,8 +32206,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -32986,8 +32238,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33019,8 +32270,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33052,7 +32302,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33085,8 +32335,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33118,8 +32367,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33151,8 +32399,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33184,7 +32431,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33217,8 +32464,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33250,8 +32496,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33283,8 +32528,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33316,7 +32560,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33349,8 +32593,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33382,8 +32625,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33415,8 +32657,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33448,7 +32689,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33481,8 +32722,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33514,8 +32754,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33547,8 +32786,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33580,7 +32818,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33613,8 +32851,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33646,8 +32883,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33679,8 +32915,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33712,7 +32947,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33745,8 +32980,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33778,8 +33012,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33811,8 +33044,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33844,7 +33076,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -33877,8 +33109,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33910,8 +33141,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33943,8 +33173,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -33976,7 +33205,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34009,8 +33238,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34042,8 +33270,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34075,8 +33302,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34108,7 +33334,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34141,8 +33367,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34174,8 +33399,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34207,8 +33431,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34240,7 +33463,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34273,8 +33496,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34306,8 +33528,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34339,8 +33560,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34372,7 +33592,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34405,8 +33625,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34438,8 +33657,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34471,8 +33689,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34504,7 +33721,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34537,8 +33754,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34570,8 +33786,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34603,8 +33818,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34636,7 +33850,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34669,8 +33883,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34702,8 +33915,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34735,8 +33947,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34768,7 +33979,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34801,8 +34012,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34834,8 +34044,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34867,8 +34076,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34900,7 +34108,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -34933,8 +34141,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34966,8 +34173,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -34999,8 +34205,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35032,7 +34237,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35065,8 +34270,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35098,8 +34302,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35131,8 +34334,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35164,7 +34366,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35197,8 +34399,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35230,8 +34431,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35263,8 +34463,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35296,7 +34495,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35329,8 +34528,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35362,8 +34560,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35395,8 +34592,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35428,7 +34624,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35461,8 +34657,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35494,8 +34689,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35527,8 +34721,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35560,7 +34753,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35593,8 +34786,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35626,8 +34818,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35659,8 +34850,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35692,7 +34882,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35725,8 +34915,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35758,8 +34947,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35791,8 +34979,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35824,7 +35011,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35857,8 +35044,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35890,8 +35076,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35923,8 +35108,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -35956,7 +35140,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -35989,8 +35173,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36022,8 +35205,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36055,8 +35237,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36088,7 +35269,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36121,8 +35302,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36154,8 +35334,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36187,8 +35366,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36220,7 +35398,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36253,8 +35431,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36286,8 +35463,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36319,8 +35495,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36352,7 +35527,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36385,8 +35560,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36418,8 +35592,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36451,8 +35624,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36484,7 +35656,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36517,8 +35689,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36550,8 +35721,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36583,8 +35753,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36616,7 +35785,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36649,8 +35818,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36682,8 +35850,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36715,8 +35882,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36748,7 +35914,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36781,8 +35947,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36814,8 +35979,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36847,8 +36011,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36880,7 +36043,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -36913,8 +36076,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36946,8 +36108,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -36979,8 +36140,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37012,7 +36172,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37045,8 +36205,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37078,8 +36237,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37111,8 +36269,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37144,7 +36301,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37177,8 +36334,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37210,8 +36366,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37243,8 +36398,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37276,7 +36430,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37309,8 +36463,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37342,8 +36495,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37375,8 +36527,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37408,7 +36559,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37441,8 +36592,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37474,8 +36624,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37507,8 +36656,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37540,7 +36688,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37573,8 +36721,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37606,8 +36753,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37639,8 +36785,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37672,7 +36817,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37705,8 +36850,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37738,8 +36882,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37771,8 +36914,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37804,7 +36946,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37837,8 +36979,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37870,8 +37011,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37903,8 +37043,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -37936,7 +37075,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -37969,8 +37108,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38002,8 +37140,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38035,8 +37172,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38068,7 +37204,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38101,8 +37237,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38134,8 +37269,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38167,8 +37301,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38200,7 +37333,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38233,8 +37366,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38266,8 +37398,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38299,8 +37430,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38332,7 +37462,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38365,8 +37495,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38398,8 +37527,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38431,8 +37559,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38464,7 +37591,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38497,8 +37624,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38530,8 +37656,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38563,8 +37688,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38596,7 +37720,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38629,8 +37753,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38662,8 +37785,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38695,8 +37817,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38728,7 +37849,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38761,8 +37882,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38794,8 +37914,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38827,8 +37946,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38860,7 +37978,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -38893,8 +38011,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38926,8 +38043,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38959,8 +38075,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -38992,7 +38107,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39025,8 +38140,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39058,8 +38172,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39091,8 +38204,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39124,7 +38236,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39157,8 +38269,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39190,8 +38301,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39223,8 +38333,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39256,7 +38365,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39289,8 +38398,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39322,8 +38430,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39355,8 +38462,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39388,7 +38494,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39421,8 +38527,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39454,8 +38559,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39487,8 +38591,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39520,7 +38623,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39553,8 +38656,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39586,8 +38688,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39619,8 +38720,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39652,7 +38752,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39685,8 +38785,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39718,8 +38817,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39751,8 +38849,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39784,7 +38881,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39817,8 +38914,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39850,8 +38946,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39883,8 +38978,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39916,7 +39010,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -39949,8 +39043,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -39982,8 +39075,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40015,8 +39107,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40048,7 +39139,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40081,8 +39172,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40114,8 +39204,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40147,8 +39236,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40180,7 +39268,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40213,8 +39301,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40246,8 +39333,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40279,8 +39365,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40312,7 +39397,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40345,8 +39430,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40378,8 +39462,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40411,8 +39494,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40444,7 +39526,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40477,8 +39559,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40510,8 +39591,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40543,8 +39623,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40576,7 +39655,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40609,8 +39688,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40642,8 +39720,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40675,8 +39752,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40708,7 +39784,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40741,8 +39817,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40774,8 +39849,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40807,8 +39881,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40840,7 +39913,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -40873,8 +39946,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40906,8 +39978,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40939,8 +40010,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -40972,7 +40042,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41005,8 +40075,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41038,8 +40107,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41071,8 +40139,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41104,7 +40171,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41137,8 +40204,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41170,8 +40236,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41203,8 +40268,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41236,7 +40300,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41269,8 +40333,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41302,8 +40365,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41335,8 +40397,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41368,7 +40429,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41401,8 +40462,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41434,8 +40494,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41467,8 +40526,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41500,7 +40558,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41533,8 +40591,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41566,8 +40623,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41599,8 +40655,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41632,7 +40687,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41665,8 +40720,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41698,8 +40752,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41731,8 +40784,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41764,7 +40816,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41797,8 +40849,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41830,8 +40881,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41863,8 +40913,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41896,7 +40945,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -41929,8 +40978,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41962,8 +41010,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -41995,8 +41042,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42028,7 +41074,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42061,8 +41107,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42094,8 +41139,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42127,8 +41171,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42160,7 +41203,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42193,8 +41236,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42226,8 +41268,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42259,8 +41300,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42292,7 +41332,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42325,8 +41365,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42358,8 +41397,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42391,8 +41429,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42424,7 +41461,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42457,8 +41494,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42490,8 +41526,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42523,8 +41558,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42556,7 +41590,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42589,8 +41623,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42622,8 +41655,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42655,8 +41687,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42688,7 +41719,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42721,8 +41752,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42754,8 +41784,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42787,8 +41816,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42820,7 +41848,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42853,8 +41881,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42886,8 +41913,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42919,8 +41945,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -42952,7 +41977,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -42985,8 +42010,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43018,8 +42042,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43051,8 +42074,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43084,7 +42106,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43117,8 +42139,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43150,8 +42171,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43183,8 +42203,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43216,7 +42235,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43249,8 +42268,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43282,8 +42300,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43315,8 +42332,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43348,7 +42364,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43381,8 +42397,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43414,8 +42429,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43447,8 +42461,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43480,7 +42493,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43513,8 +42526,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43546,8 +42558,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43579,8 +42590,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43612,7 +42622,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43645,8 +42655,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43678,8 +42687,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43711,8 +42719,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43744,7 +42751,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43777,8 +42784,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43810,8 +42816,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43843,8 +42848,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43876,7 +42880,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -43909,8 +42913,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43942,8 +42945,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -43975,8 +42977,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44008,7 +43009,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44041,8 +43042,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44074,8 +43074,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44107,8 +43106,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44140,7 +43138,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44173,8 +43171,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44206,8 +43203,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44239,8 +43235,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44272,7 +43267,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44305,8 +43300,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44338,8 +43332,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44371,8 +43364,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44404,7 +43396,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44437,8 +43429,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44470,8 +43461,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44503,8 +43493,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44536,7 +43525,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44569,8 +43558,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44602,8 +43590,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44635,8 +43622,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44668,7 +43654,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44701,8 +43687,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44734,8 +43719,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44767,8 +43751,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44800,7 +43783,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44833,8 +43816,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44866,8 +43848,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44899,8 +43880,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44932,7 +43912,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -44965,8 +43945,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -44998,8 +43977,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45031,8 +44009,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45064,7 +44041,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45097,8 +44074,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45130,8 +44106,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45163,8 +44138,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45196,7 +44170,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45229,8 +44203,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45262,8 +44235,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45295,8 +44267,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45328,7 +44299,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45361,8 +44332,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45394,8 +44364,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45427,8 +44396,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45460,7 +44428,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45493,8 +44461,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45526,8 +44493,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45559,8 +44525,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45592,7 +44557,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45625,8 +44590,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45658,8 +44622,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45691,8 +44654,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45724,7 +44686,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45757,8 +44719,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45790,8 +44751,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45823,8 +44783,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45856,7 +44815,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -45889,8 +44848,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45922,8 +44880,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45955,8 +44912,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -45988,7 +44944,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46021,8 +44977,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46054,8 +45009,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46087,8 +45041,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46120,7 +45073,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46153,8 +45106,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46186,8 +45138,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46219,8 +45170,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46252,7 +45202,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46285,8 +45235,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46318,8 +45267,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46351,8 +45299,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46384,7 +45331,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46417,8 +45364,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46450,8 +45396,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46483,8 +45428,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46516,7 +45460,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46549,8 +45493,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46582,8 +45525,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46615,8 +45557,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46648,7 +45589,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46681,8 +45622,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46714,8 +45654,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46747,8 +45686,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46780,7 +45718,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46813,8 +45751,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46846,8 +45783,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46879,8 +45815,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46912,7 +45847,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -46945,8 +45880,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -46978,8 +45912,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47011,8 +45944,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47044,7 +45976,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47077,8 +46009,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47110,8 +46041,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47143,8 +46073,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47176,7 +46105,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47209,8 +46138,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47242,8 +46170,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47275,8 +46202,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47308,7 +46234,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47341,8 +46267,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47374,8 +46299,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47407,8 +46331,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47440,7 +46363,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47473,8 +46396,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47506,8 +46428,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47539,8 +46460,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47572,7 +46492,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47605,8 +46525,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47638,8 +46557,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47671,8 +46589,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47704,7 +46621,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47737,8 +46654,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47770,8 +46686,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47803,8 +46718,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47836,7 +46750,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -47869,8 +46783,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47902,8 +46815,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47935,8 +46847,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -47968,7 +46879,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48001,8 +46912,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48034,8 +46944,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48067,8 +46976,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48100,7 +47008,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48133,8 +47041,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48166,8 +47073,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48199,8 +47105,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48232,7 +47137,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48265,8 +47170,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48298,8 +47202,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48331,8 +47234,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48364,7 +47266,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48397,8 +47299,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48430,8 +47331,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48463,8 +47363,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48496,7 +47395,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48529,8 +47428,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48562,8 +47460,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48595,8 +47492,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48628,7 +47524,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48661,8 +47557,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48694,8 +47589,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48727,8 +47621,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48760,7 +47653,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48793,8 +47686,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48826,8 +47718,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48859,8 +47750,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48892,7 +47782,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -48925,8 +47815,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48958,8 +47847,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -48991,8 +47879,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49024,7 +47911,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49057,8 +47944,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49090,8 +47976,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49123,8 +48008,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49156,7 +48040,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49189,8 +48073,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49222,8 +48105,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49255,8 +48137,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49288,7 +48169,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49321,8 +48202,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49354,8 +48234,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49387,8 +48266,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49420,7 +48298,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49453,8 +48331,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49486,8 +48363,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49519,8 +48395,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49552,7 +48427,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49585,8 +48460,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49618,8 +48492,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49651,8 +48524,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49684,7 +48556,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49717,8 +48589,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49750,8 +48621,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49783,8 +48653,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49816,7 +48685,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49849,8 +48718,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49882,8 +48750,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49915,8 +48782,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -49948,7 +48814,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -49981,8 +48847,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50014,8 +48879,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50047,8 +48911,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50080,7 +48943,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50113,8 +48976,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50146,8 +49008,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50179,8 +49040,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50212,7 +49072,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50245,8 +49105,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50278,8 +49137,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50311,8 +49169,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50344,7 +49201,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50377,8 +49234,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50410,8 +49266,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50443,8 +49298,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50476,7 +49330,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50509,8 +49363,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50542,8 +49395,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50575,8 +49427,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50608,7 +49459,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50641,8 +49492,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50674,8 +49524,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50707,8 +49556,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50740,7 +49588,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50773,8 +49621,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50806,8 +49653,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50839,8 +49685,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50872,7 +49717,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -50905,8 +49750,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50938,8 +49782,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -50971,8 +49814,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51004,7 +49846,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51037,8 +49879,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51070,8 +49911,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51103,8 +49943,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51136,7 +49975,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51169,8 +50008,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51202,8 +50040,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51235,8 +50072,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51268,7 +50104,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51301,8 +50137,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51334,8 +50169,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51367,8 +50201,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51400,7 +50233,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51433,8 +50266,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51466,8 +50298,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51499,8 +50330,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51532,7 +50362,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51565,8 +50395,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51598,8 +50427,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51631,8 +50459,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51664,7 +50491,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51697,8 +50524,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51730,8 +50556,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51763,8 +50588,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51796,7 +50620,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51829,8 +50653,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51862,8 +50685,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51895,8 +50717,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51928,7 +50749,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -51961,8 +50782,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -51994,8 +50814,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52027,8 +50846,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52060,7 +50878,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52093,8 +50911,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52126,8 +50943,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52159,8 +50975,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52192,7 +51007,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52225,8 +51040,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52258,8 +51072,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52291,8 +51104,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52324,7 +51136,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52357,8 +51169,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52390,8 +51201,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52423,8 +51233,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52456,7 +51265,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52489,8 +51298,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52522,8 +51330,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52555,8 +51362,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52588,7 +51394,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52621,8 +51427,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52654,8 +51459,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52687,8 +51491,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52720,7 +51523,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52753,8 +51556,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52786,8 +51588,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52819,8 +51620,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52852,7 +51652,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -52885,8 +51685,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52918,8 +51717,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52951,8 +51749,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -52984,7 +51781,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53017,8 +51814,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53050,8 +51846,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53083,8 +51878,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53116,7 +51910,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53149,8 +51943,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53182,8 +51975,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53215,8 +52007,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53248,7 +52039,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53281,8 +52072,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53314,8 +52104,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53347,8 +52136,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53380,7 +52168,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53413,8 +52201,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53446,8 +52233,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53479,8 +52265,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53512,7 +52297,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53545,8 +52330,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53578,8 +52362,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53611,8 +52394,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53644,7 +52426,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53677,8 +52459,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53710,8 +52491,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53743,8 +52523,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53776,7 +52555,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53809,8 +52588,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53842,8 +52620,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53875,8 +52652,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53908,7 +52684,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -53941,8 +52717,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -53974,8 +52749,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54007,8 +52781,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54040,7 +52813,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54073,8 +52846,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54106,8 +52878,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54139,8 +52910,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54172,7 +52942,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54205,8 +52975,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54238,8 +53007,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54271,8 +53039,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54304,7 +53071,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54337,8 +53104,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54370,8 +53136,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54403,8 +53168,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54436,7 +53200,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54469,8 +53233,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54502,8 +53265,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54535,8 +53297,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54568,7 +53329,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54601,8 +53362,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54634,8 +53394,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54667,8 +53426,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54700,7 +53458,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54733,8 +53491,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54766,8 +53523,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54799,8 +53555,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54832,7 +53587,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54865,8 +53620,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54898,8 +53652,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54931,8 +53684,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -54964,7 +53716,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -54997,8 +53749,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55030,8 +53781,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55063,8 +53813,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55096,7 +53845,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55129,8 +53878,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55162,8 +53910,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55195,8 +53942,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55228,7 +53974,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55261,8 +54007,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55294,8 +54039,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55327,8 +54071,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55360,7 +54103,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55393,8 +54136,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55426,8 +54168,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55459,8 +54200,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55492,7 +54232,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55525,8 +54265,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55558,8 +54297,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55591,8 +54329,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55624,7 +54361,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55657,8 +54394,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55690,8 +54426,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55723,8 +54458,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55756,7 +54490,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55789,8 +54523,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55822,8 +54555,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55855,8 +54587,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55888,7 +54619,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -55921,8 +54652,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55954,8 +54684,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -55987,8 +54716,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56020,7 +54748,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56053,8 +54781,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56086,8 +54813,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56119,8 +54845,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56152,7 +54877,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56185,8 +54910,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56218,8 +54942,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56251,8 +54974,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56284,7 +55006,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56317,8 +55039,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56350,8 +55071,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56383,8 +55103,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56416,7 +55135,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56449,8 +55168,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56482,8 +55200,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56515,8 +55232,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56548,7 +55264,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56581,8 +55297,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56614,8 +55329,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56647,8 +55361,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56680,7 +55393,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56713,8 +55426,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56746,8 +55458,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56779,8 +55490,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56812,7 +55522,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56845,8 +55555,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56878,8 +55587,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56911,8 +55619,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -56944,7 +55651,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -56977,8 +55684,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57010,8 +55716,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57043,8 +55748,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57076,7 +55780,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57109,8 +55813,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57142,8 +55845,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57175,8 +55877,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57208,7 +55909,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57241,8 +55942,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57274,8 +55974,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57307,8 +56006,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57340,7 +56038,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57373,8 +56071,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57406,8 +56103,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57439,8 +56135,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57472,7 +56167,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57505,8 +56200,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57538,8 +56232,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57571,8 +56264,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57604,7 +56296,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57637,8 +56329,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57670,8 +56361,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57703,8 +56393,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57736,7 +56425,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57769,8 +56458,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57802,8 +56490,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57835,8 +56522,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57868,7 +56554,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -57901,8 +56587,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57934,8 +56619,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -57967,8 +56651,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58000,7 +56683,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58033,8 +56716,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58066,8 +56748,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58099,8 +56780,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58132,7 +56812,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58165,8 +56845,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58198,8 +56877,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58231,8 +56909,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58264,7 +56941,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58297,8 +56974,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58330,8 +57006,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58363,8 +57038,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58396,7 +57070,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58429,8 +57103,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58462,8 +57135,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58495,8 +57167,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58528,7 +57199,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58561,8 +57232,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58594,8 +57264,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58627,8 +57296,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58660,7 +57328,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58693,8 +57361,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58726,8 +57393,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58759,8 +57425,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58792,7 +57457,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58825,8 +57490,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58858,8 +57522,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58891,8 +57554,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58924,7 +57586,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -58957,8 +57619,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -58990,8 +57651,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59023,8 +57683,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59056,7 +57715,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59089,8 +57748,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59122,8 +57780,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59155,8 +57812,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59188,7 +57844,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59221,8 +57877,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59254,8 +57909,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59287,8 +57941,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59320,7 +57973,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59353,8 +58006,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59386,8 +58038,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59419,8 +58070,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59452,7 +58102,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59485,8 +58135,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59518,8 +58167,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59551,8 +58199,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59584,7 +58231,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59617,8 +58264,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59650,8 +58296,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59683,8 +58328,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59716,7 +58360,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59749,8 +58393,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59782,8 +58425,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59815,8 +58457,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59848,7 +58489,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -59881,8 +58522,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59914,8 +58554,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59947,8 +58586,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -59980,7 +58618,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60013,8 +58651,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60046,8 +58683,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60079,8 +58715,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60112,7 +58747,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60145,8 +58780,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60178,8 +58812,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60211,8 +58844,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60244,7 +58876,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60277,8 +58909,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60310,8 +58941,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60343,8 +58973,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60376,7 +59005,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60409,8 +59038,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60442,8 +59070,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60475,8 +59102,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60508,7 +59134,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60541,8 +59167,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60574,8 +59199,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60607,8 +59231,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60640,7 +59263,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60673,8 +59296,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60706,8 +59328,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60739,8 +59360,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60772,7 +59392,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60805,8 +59425,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60838,8 +59457,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60871,8 +59489,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60904,7 +59521,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -60937,8 +59554,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -60970,8 +59586,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61003,8 +59618,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61036,7 +59650,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61069,8 +59683,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61102,8 +59715,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61135,8 +59747,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61168,7 +59779,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61201,8 +59812,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61234,8 +59844,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61267,8 +59876,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61300,7 +59908,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61333,8 +59941,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61366,8 +59973,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61399,8 +60005,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61432,7 +60037,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61465,8 +60070,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61498,8 +60102,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61531,8 +60134,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61564,7 +60166,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61597,8 +60199,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61630,8 +60231,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61663,8 +60263,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61696,7 +60295,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61729,8 +60328,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61762,8 +60360,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61795,8 +60392,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61828,7 +60424,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61861,8 +60457,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61894,8 +60489,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61927,8 +60521,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -61960,7 +60553,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -61993,8 +60586,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62026,8 +60618,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62059,8 +60650,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62092,7 +60682,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62125,8 +60715,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62158,8 +60747,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62191,8 +60779,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62224,7 +60811,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62257,8 +60844,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62290,8 +60876,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62323,8 +60908,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62356,7 +60940,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62389,8 +60973,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62422,8 +61005,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62455,8 +61037,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62488,7 +61069,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62521,8 +61102,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62554,8 +61134,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62587,8 +61166,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62620,7 +61198,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62653,8 +61231,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62686,8 +61263,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62719,8 +61295,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62752,7 +61327,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62785,8 +61360,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62818,8 +61392,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62851,8 +61424,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62884,7 +61456,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -62917,8 +61489,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62950,8 +61521,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -62983,8 +61553,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63016,7 +61585,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63049,8 +61618,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63082,8 +61650,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63115,8 +61682,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63148,7 +61714,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63181,8 +61747,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63214,8 +61779,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63247,8 +61811,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63280,7 +61843,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63313,8 +61876,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63346,8 +61908,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63379,8 +61940,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63412,7 +61972,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63445,8 +62005,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63478,8 +62037,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63511,8 +62069,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63544,7 +62101,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63577,8 +62134,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63610,8 +62166,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63643,8 +62198,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63676,7 +62230,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63709,8 +62263,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63742,8 +62295,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63775,8 +62327,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63808,7 +62359,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63841,8 +62392,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63874,8 +62424,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63907,8 +62456,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -63940,7 +62488,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -63973,8 +62521,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64006,8 +62553,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64039,8 +62585,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64072,7 +62617,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64105,8 +62650,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64138,8 +62682,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64171,8 +62714,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64204,7 +62746,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64237,8 +62779,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64270,8 +62811,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64303,8 +62843,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64336,7 +62875,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64369,8 +62908,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64402,8 +62940,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64435,8 +62972,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64468,7 +63004,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64501,8 +63037,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64534,8 +63069,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64567,8 +63101,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64600,7 +63133,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64633,8 +63166,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64666,8 +63198,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64699,8 +63230,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64732,7 +63262,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64765,8 +63295,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64798,8 +63327,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64831,8 +63359,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64864,7 +63391,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -64897,8 +63424,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64930,8 +63456,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64963,8 +63488,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -64996,7 +63520,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65029,8 +63553,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65062,8 +63585,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65095,8 +63617,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65128,7 +63649,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65161,8 +63682,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65194,8 +63714,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65227,8 +63746,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65260,7 +63778,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65293,8 +63811,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65326,8 +63843,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65359,8 +63875,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65392,7 +63907,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65425,8 +63940,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65458,8 +63972,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65491,8 +64004,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65524,7 +64036,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65557,8 +64069,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65590,8 +64101,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65623,8 +64133,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65656,7 +64165,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65689,8 +64198,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65722,8 +64230,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65755,8 +64262,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65788,7 +64294,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65821,8 +64327,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65854,8 +64359,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65887,8 +64391,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65920,7 +64423,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -65953,8 +64456,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -65986,8 +64488,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66019,8 +64520,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66052,7 +64552,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66085,8 +64585,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66118,8 +64617,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66151,8 +64649,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66184,7 +64681,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66217,8 +64714,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66250,8 +64746,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66283,8 +64778,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66316,7 +64810,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66349,8 +64843,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66382,8 +64875,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66415,8 +64907,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66448,7 +64939,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66481,8 +64972,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66514,8 +65004,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66547,8 +65036,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66580,7 +65068,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66613,8 +65101,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66646,8 +65133,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66679,8 +65165,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66712,7 +65197,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66745,8 +65230,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66778,8 +65262,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66811,8 +65294,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66844,7 +65326,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -66877,8 +65359,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66910,8 +65391,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66943,8 +65423,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -66976,7 +65455,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67009,8 +65488,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67042,8 +65520,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67075,8 +65552,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67108,7 +65584,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67141,8 +65617,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67174,8 +65649,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67207,8 +65681,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67240,7 +65713,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67273,8 +65746,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67306,8 +65778,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67339,8 +65810,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67372,7 +65842,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67405,8 +65875,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67438,8 +65907,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67471,8 +65939,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67504,7 +65971,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67537,8 +66004,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67570,8 +66036,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67603,8 +66068,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67636,7 +66100,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67669,8 +66133,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67702,8 +66165,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67735,8 +66197,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67768,7 +66229,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67801,8 +66262,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67834,8 +66294,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67867,8 +66326,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67900,7 +66358,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -67933,8 +66391,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67966,8 +66423,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -67999,8 +66455,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68032,7 +66487,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68065,8 +66520,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68098,8 +66552,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68131,8 +66584,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68164,7 +66616,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68197,8 +66649,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68230,8 +66681,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68263,8 +66713,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68296,7 +66745,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68329,8 +66778,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68362,8 +66810,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68395,8 +66842,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68428,7 +66874,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68461,8 +66907,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68494,8 +66939,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68527,8 +66971,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68560,7 +67003,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68593,8 +67036,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68626,8 +67068,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68659,8 +67100,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68692,7 +67132,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68725,8 +67165,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68758,8 +67197,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68791,8 +67229,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68824,7 +67261,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68857,8 +67294,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68890,8 +67326,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68923,8 +67358,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -68956,7 +67390,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -68989,8 +67423,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69022,8 +67455,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69055,8 +67487,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69088,7 +67519,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69121,8 +67552,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69154,8 +67584,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69187,8 +67616,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69220,7 +67648,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69253,8 +67681,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69286,8 +67713,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69319,8 +67745,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69352,7 +67777,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69385,8 +67810,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69418,8 +67842,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69451,8 +67874,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69484,7 +67906,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69517,8 +67939,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69550,8 +67971,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69583,8 +68003,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69616,7 +68035,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69649,8 +68068,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69682,8 +68100,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69715,8 +68132,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69748,7 +68164,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69781,8 +68197,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69814,8 +68229,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69847,8 +68261,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69880,7 +68293,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -69913,8 +68326,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69946,8 +68358,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -69979,8 +68390,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70012,7 +68422,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70045,8 +68455,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70078,8 +68487,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70111,8 +68519,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70144,7 +68551,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70177,8 +68584,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70210,8 +68616,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70243,8 +68648,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70276,7 +68680,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70309,8 +68713,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70342,8 +68745,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70375,8 +68777,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70408,7 +68809,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70441,8 +68842,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70474,8 +68874,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70507,8 +68906,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70540,7 +68938,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70573,8 +68971,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70606,8 +69003,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70639,8 +69035,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70672,7 +69067,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70705,8 +69100,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70738,8 +69132,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70771,8 +69164,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70804,7 +69196,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70837,8 +69229,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70870,8 +69261,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70903,8 +69293,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -70936,7 +69325,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -70969,8 +69358,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71002,8 +69390,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71035,8 +69422,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71068,7 +69454,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71101,8 +69487,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71134,8 +69519,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71167,8 +69551,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71200,7 +69583,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71233,8 +69616,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71266,8 +69648,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71299,8 +69680,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71332,7 +69712,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71365,8 +69745,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71398,8 +69777,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71431,8 +69809,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71464,7 +69841,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71497,8 +69874,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71530,8 +69906,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71563,8 +69938,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71596,7 +69970,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71629,8 +70003,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71662,8 +70035,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71695,8 +70067,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71728,7 +70099,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71761,8 +70132,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71794,8 +70164,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71827,8 +70196,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71860,7 +70228,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -71893,8 +70261,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71926,8 +70293,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71959,8 +70325,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -71992,7 +70357,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72025,8 +70390,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72058,8 +70422,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72091,8 +70454,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72124,7 +70486,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72157,8 +70519,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72190,8 +70551,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72223,8 +70583,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72256,7 +70615,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72289,8 +70648,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72322,8 +70680,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72355,8 +70712,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72388,7 +70744,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72421,8 +70777,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72454,8 +70809,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72487,8 +70841,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72520,7 +70873,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72553,8 +70906,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72586,8 +70938,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72619,8 +70970,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72652,7 +71002,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72685,8 +71035,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72718,8 +71067,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72751,8 +71099,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72784,7 +71131,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72817,8 +71164,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72850,8 +71196,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72883,8 +71228,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72916,7 +71260,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -72949,8 +71293,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -72982,8 +71325,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73015,8 +71357,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73048,7 +71389,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73081,8 +71422,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73114,8 +71454,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73147,8 +71486,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73180,7 +71518,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73213,8 +71551,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73246,8 +71583,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73279,8 +71615,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73312,7 +71647,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73345,8 +71680,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73378,8 +71712,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73411,8 +71744,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73444,7 +71776,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73477,8 +71809,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73510,8 +71841,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73543,8 +71873,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73576,7 +71905,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73609,8 +71938,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73642,8 +71970,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73675,8 +72002,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73708,7 +72034,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73741,8 +72067,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73774,8 +72099,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73807,8 +72131,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
+"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -73840,7 +72163,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73873,23 +72196,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73906,15 +72212,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73939,11 +72236,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -73969,11 +72261,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74005,7 +72292,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74038,23 +72325,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74071,15 +72341,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74104,11 +72365,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74134,11 +72390,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74170,7 +72421,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74203,23 +72454,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74236,15 +72470,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74269,11 +72494,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74299,11 +72519,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74335,7 +72550,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74368,9 +72583,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74400,9 +72612,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74434,9 +72643,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74466,9 +72672,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74476,7 +72679,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74499,9 +72703,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74533,9 +72734,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74565,9 +72763,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74599,9 +72794,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74616,7 +72808,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74632,9 +72825,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74664,9 +72854,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74698,9 +72885,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74730,9 +72914,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74756,7 +72937,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74764,9 +72946,6 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74796,9 +72975,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74829,9 +73005,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74862,9 +73035,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74896,7 +73066,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -74928,9 +73098,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74961,9 +73128,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -74994,9 +73158,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75027,9 +73188,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75037,7 +73195,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75060,9 +73219,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75093,9 +73249,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75126,9 +73279,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75159,9 +73309,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75177,7 +73324,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75192,9 +73340,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75225,9 +73370,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75258,9 +73400,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75291,9 +73430,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75317,16 +73453,14 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75357,9 +73491,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75390,9 +73521,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75423,9 +73551,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75457,7 +73582,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -75489,9 +73614,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75522,9 +73644,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75555,9 +73674,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75588,9 +73704,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75598,7 +73711,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75621,9 +73735,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75654,9 +73765,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75687,9 +73795,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75720,9 +73825,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75738,7 +73840,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75753,9 +73856,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75786,9 +73886,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75819,9 +73916,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75852,9 +73946,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75878,16 +73969,14 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75918,9 +74007,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75951,9 +74037,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -75984,9 +74067,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76018,7 +74098,7 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
@@ -76050,9 +74130,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76083,9 +74160,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76116,9 +74190,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76149,9 +74220,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76159,7 +74227,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76182,9 +74251,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76215,9 +74281,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76248,9 +74311,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76281,9 +74341,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76299,7 +74356,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76314,9 +74372,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76347,9 +74402,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76380,9 +74432,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76413,9 +74462,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76439,16 +74485,14 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
+"       add x0, x0, 260                    \n"
+"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76479,9 +74523,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76512,9 +74553,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76545,9 +74583,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76579,10 +74614,8 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76611,9 +74644,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76644,9 +74674,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76677,9 +74704,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76710,9 +74734,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -76722,8346 +74743,14 @@ int main() {
 
 "       .word 10        ; Dummy instruction \n"
 
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
+"       add x0, x0, 260                    \n"
 "       br x0                             \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
-
-"       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -85092,9 +74781,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -85125,9 +74811,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 
@@ -85158,9 +74841,6 @@ int main() {
 "       .word 10        ; Dummy instruction \n"
 
 "       .word 10        ; Dummy instruction \n"
-
-"       add x0, x0, 68                    \n"
-"       br x0                             \n"
 
 "       .word 10        ; Dummy instruction \n"
 

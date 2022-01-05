@@ -97,11 +97,15 @@ class AsmGen:
             exit(0)
 
 
-core = "FIRESTORM"
+core = "ICESTORM"
 
 loop_count = 1000
 
-x = list(map(lambda x : x * 20 + 600, range(100)))
+x = []
+if core == 'ICESTORM':
+    x = list(map(lambda x : x * 20, range(30)))
+else:
+    x = list(map(lambda x : x * 20 + 900, range(100)))
 
 plt.title(f'Number of mispredictions on {core}.')
 plt.xlabel('Number of indirect branches in the loop body.')
@@ -131,7 +135,7 @@ colors = [
     '#dcbeff'
 ]
 
-intervals = range(1, 17)
+intervals = range(49, 65)
 for interval in intervals:
     print(f'Interval: {interval}')
     y = []
@@ -200,7 +204,7 @@ for interval in intervals:
         #avg_t //= 100
         #t.append(avg_t)
 
-    plt.plot(x, y, color=colors[interval-1], linewidth=3)
+    plt.plot(x, y, color=colors[interval-49], linewidth=3)
     #x_index = (interval-1) // 4
     #y_index = (interval-1) % 4
 

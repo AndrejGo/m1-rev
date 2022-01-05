@@ -3,39 +3,51 @@
 import subprocess
 import matplotlib.pyplot as plt
 
-num_bins = 6000
+num_bins = 4000
 bins = [0] * num_bins
 
-repetitions = 1000
+repetitions = 10000
 i = 0
 
-while i < repetitions:
-    try:
-        result = subprocess.check_output(f'./main', shell=True).decode('utf-8')
-        # Check if we got an illegal instruction error
-        if "illegal" not in result:
-            index = int(result.split(' ')[0])
+for core in ['firestorm', 'icestorm']:
 
-            if index >= num_bins:
-                index = num_bins-1
+    #if core == 'icestorm':
+        #subprocess.run('clang -DICESTORM main.c -o main', shell=True)
+        #s = input('Launch the occupier and run again.')
+    #else:
+        #subprocess.run('clang -DFIRESTORM main.c -o main', shell=True)
 
-            bins[index] += 1
+    while i < repetitions:
+        try:
+            result = subprocess.check_output(f'./main', shell=True).decode('utf-8')
+            # Check if we got an illegal instruction error
+            if "illegal" not in result:
+                index = int(result.split(' ')[0])
 
-            i += 1
-    except subprocess.CalledProcessError as e:
-        print("Exception:", str(e))
-        print(i)
+                index -= 1000
 
-xvalues = list(map(lambda x : x, range(num_bins)))
+                if index >= num_bins:
+                    index = num_bins-1
+
+                bins[index] += 1
+
+                i += 1
+        except subprocess.CalledProcessError as e:
+            print("Exception:", str(e))
+            print(i)
+
+xvalues = list(map(lambda x : x + 1000, range(num_bins)))
 
 plt.bar(
-    range(num_bins),
+    xvalues,
     height=bins,
-    width=4,
-    color='red'
+    width=30,
+    color='#007480'
 )
-plt.xlabel(f'Clock count')
-plt.title('Frequency of clocks needed to complete the loop')
+plt.xlabel(f'Clock count', fontsize=18)
+plt.xticks([1000, 2000, 3000, 4000, 5000], [1000, 2000, 3000, 4000, 5000], fontsize=16)
+plt.yticks(fontsize=16)
+plt.title('Frequency of clock counts needed\nto complete the loop', fontsize=20)
 plt.yscale("log")
 #plt.xticks([0, 100, 200, 300, 400, 500, 600, 700, 800], [100, 200, 300, 400, 500, 600, 700, 800, 900])
 plt.show()
